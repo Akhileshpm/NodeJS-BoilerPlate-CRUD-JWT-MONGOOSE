@@ -1,0 +1,33 @@
+{
+  "name": "resource_planner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-specifier-resolution=node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "config": "^3.3.9",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "json2csv": "^5.0.7",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.1",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.5.3",
+    "passport-google-token": "^0.1.2",
+    "passport-jwt": "^4.0.0",
+    "uuid": "^9.0.0",
+    "validator": "^13.7.0",
+    "winston": "^3.8.2"
+  }
+}
